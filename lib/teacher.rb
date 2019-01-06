@@ -4,9 +4,9 @@ class Teacher < User
 
   
   def teach 
-    KNOWLEDGE
-  
-  
+   array = KNOWLEDGE
+   array.sample
+  end 
   
   
 end
